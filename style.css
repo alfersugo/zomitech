@@ -1,0 +1,2950 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css?family=Scope+One|Open+Sans:700");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;   */
+	font-size: 16px;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Navbar section */
+
+.nav {
+	/*	max-width:1200px;  */
+	width: 99%;
+	height: 6.87rem;
+	position: fixed;
+	line-height: 100px;
+	text-align: center;
+	z-index: 1;
+}
+
+.logo_Zomitech {
+	width: 5rem;
+	height: auto;
+	top: auto;
+}
+
+.texto_zomitech {
+	box-sizing: border-box;
+	font-family: "Quicksand", sans-serif;
+	margin: 10px;
+	padding: 2% 2% 2% 2%;
+
+	letter-spacing: 0.3rem;
+	width: 15rem;
+	height: 3.8rem;
+	font-weight: bold;
+	font-size: 2.2rem;
+
+	line-height: 2.5rem;
+	text-rendering: optimizeLegibility;
+	color: #b3e4ec;
+	background-color: rgba(82, 127, 134, 0.6);
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
+		0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
+		0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
+		0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
+		0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.nav div.logo_y_Texto {
+	display: flex;
+	box-sizing: border-box;
+	float: left;
+	padding-top: 1rem;
+	padding-left: 3rem;
+	gap: 1rem;
+
+}
+
+.nav div.logo_y_Texto a {
+	text-decoration: none;
+	color: rgb(228, 213, 213);
+}
+
+.nav div.logo_y_Texto a:hover {
+	color: #0faae7;
+}
+
+.nav div.main_list {
+	height: 110px;
+	float: right;
+}
+
+.nav div.main_list ul {
+	width: 100%;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 1rem;
+}
+
+.nav div.main_list ul li {
+	width: max-content;
+	padding: 0.1rem;
+	text-align: center;
+}
+
+.nav div.main_list ul li a {
+	box-sizing: border-box;
+	font-family: "Quicksand", sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	text-decoration: none;
+	color: rgb(1, 9, 19);
+	/*	line-height: 50px;   */
+
+	font-size: 1.3em;
+
+	font-weight: bold;
+
+	margin-right: 15px;
+}
+
+.nav div.main_list ul li a:hover {
+	color: #e3e9f0;
+	/*	background-color: #fff;  */
+	background-color: rgba(10, 0, 0, 0.473);
+	border-radius: 4px;
+}
+
+
+/* Home section */
+
+.home {
+	max-width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	/*	background-color:rgba(1, 10, 12, 0.164);
+    backdrop-filter: blur(30px);
+    backdrop-filter: brightness(40%);*/
+	background-image: url(img/grafica_glass_8_1280.webp);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.navTrigger {
+	display: none;
+}
+
+.nav {
+	/*	padding-top: 30px;
+	padding-bottom: 30px;  */
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+/* Animation */
+
+.navTrigger {
+	cursor: pointer;
+	width: 40px;
+	height: 25px;
+	margin: auto;
+	position: absolute;
+	right: 30px;
+	top: 0;
+	bottom: 0;
+	padding-bottom: 20px;
+}
+
+.navTrigger i {
+	/*	background-color: #fff;  */
+	background-color: rgb(10, 0, 0);
+	border-radius: 2px;
+	content: "";
+	display: block;
+	width: 99.8%;
+	height: 4px;
+}
+
+.navTrigger i:nth-child(1) {
+	-webkit-animation: outT 0.8s backwards;
+	animation: outT 0.8s backwards;
+	-webkit-animation-direction: reverse;
+	animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(2) {
+	margin: 5px 0;
+	-webkit-animation: outM 0.8s backwards;
+	animation: outM 0.8s backwards;
+	-webkit-animation-direction: reverse;
+	animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(3) {
+	-webkit-animation: outBtm 0.8s backwards;
+	animation: outBtm 0.8s backwards;
+	-webkit-animation-direction: reverse;
+	animation-direction: reverse;
+}
+
+.navTrigger.active i:nth-child(1) {
+	-webkit-animation: inT 0.8s forwards;
+	animation: inT 0.8s forwards;
+}
+
+.navTrigger.active i:nth-child(2) {
+	-webkit-animation: inM 0.8s forwards;
+	animation: inM 0.8s forwards;
+}
+
+.navTrigger.active i:nth-child(3) {
+	-webkit-animation: inBtm 0.8s forwards;
+	animation: inBtm 0.8s forwards;
+}
+
+@-webkit-keyframes inM {
+	50% {
+		-webkit-transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(45deg);
+	}
+}
+
+@keyframes inM {
+	50% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(45deg);
+	}
+}
+
+@-webkit-keyframes outM {
+	50% {
+		-webkit-transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(45deg);
+	}
+}
+
+@keyframes outM {
+	50% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(45deg);
+	}
+}
+
+@-webkit-keyframes inT {
+	0% {
+		-webkit-transform: translateY(0px) rotate(0deg);
+	}
+
+	50% {
+		-webkit-transform: translateY(9px) rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: translateY(9px) rotate(135deg);
+	}
+}
+
+@keyframes inT {
+	0% {
+		transform: translateY(0px) rotate(0deg);
+	}
+
+	50% {
+		transform: translateY(9px) rotate(0deg);
+	}
+
+	100% {
+		transform: translateY(9px) rotate(135deg);
+	}
+}
+
+@-webkit-keyframes outT {
+	0% {
+		-webkit-transform: translateY(0px) rotate(0deg);
+	}
+
+	50% {
+		-webkit-transform: translateY(9px) rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: translateY(9px) rotate(135deg);
+	}
+}
+
+@keyframes outT {
+	0% {
+		transform: translateY(0px) rotate(0deg);
+	}
+
+	50% {
+		transform: translateY(9px) rotate(0deg);
+	}
+
+	100% {
+		transform: translateY(9px) rotate(135deg);
+	}
+}
+
+@-webkit-keyframes inBtm {
+	0% {
+		-webkit-transform: translateY(0px) rotate(0deg);
+	}
+
+	50% {
+		-webkit-transform: translateY(-9px) rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: translateY(-9px) rotate(135deg);
+	}
+}
+
+@keyframes inBtm {
+	0% {
+		transform: translateY(0px) rotate(0deg);
+	}
+
+	50% {
+		transform: translateY(-9px) rotate(0deg);
+	}
+
+	100% {
+		transform: translateY(-9px) rotate(135deg);
+	}
+}
+
+@-webkit-keyframes outBtm {
+	0% {
+		-webkit-transform: translateY(0px) rotate(0deg);
+	}
+
+	50% {
+		-webkit-transform: translateY(-9px) rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: translateY(-9px) rotate(135deg);
+	}
+}
+
+@keyframes outBtm {
+	0% {
+		transform: translateY(0px) rotate(0deg);
+	}
+
+	50% {
+		transform: translateY(-9px) rotate(0deg);
+	}
+
+	100% {
+		transform: translateY(-9px) rotate(135deg);
+	}
+}
+
+.affix {
+	padding: 0;
+	background-color: rgb(28, 148, 184);
+}
+
+/***************    Animacion de Tarjeta ************/
+
+.slide-container_seguridad {
+
+	/*   position: absolute;  */
+	position: relative;
+	top: calc(50% - 9rem);
+	left: calc(50% - 22.5rem);
+	width: 50rem;
+	height: 20rem;
+	z-index: 0;
+}
+
+.slide-container_seguridad::after {
+	content: "";
+	display: block;
+	/*   position: relative;  */
+	position: relative;
+	z-index: 0;
+	top: 7.5%;
+	left: 2.5%;
+	max-width: 98vw;
+	height: auto;
+
+	background-color: rgba(14, 13, 13, 0.8);
+	filter: blur(24px);
+}
+
+.slide_seguridad {
+	/*   position: relative;  */
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	height: 98%;
+	width: 90%;
+
+	cursor: url(Logo_Zomitech_sin_letras_2.webp), auto;
+	background-color: #0a0a0a;
+	perspective: 1500px;
+}
+
+.slide_seguridad::before {
+	content: "";
+	display: block;
+	/*   position: relative;  */
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 95%;
+
+	/* background-image: url(img/Fondo_de_Graficas_3.webp);  */
+	background-color: rgba(22, 21, 21, 0.445);
+	background-size: cover;
+	opacity: 0.6;
+	filter: blur(2px);
+}
+
+.slide-text_seguridad {
+	/*   position: relative;  */
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 98%;
+	box-sizing: border-box;
+	/* 	padding: 20px; */
+	padding: 20px;
+
+}
+
+.title_seguridad {
+
+	font-size: 2rem;
+	margin: 1.5rem 0;
+	color: white;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-weight: bold;
+	text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+	line-height: 1.2rem;
+}
+
+.rating_seguridad {
+	margin: 0rem 0;
+}
+
+.summary_seguridad {
+	margin: 8px 0;
+}
+
+#p_analisis_de_informacion a {
+	text-decoration: none;
+	color: rgb(3, 213, 250);
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-weight: bold;
+	/* text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);  */
+	text-shadow: 3px 3px 3px #ababab;
+	line-height: 1.2rem;
+	font-size: 1.5rem;
+	/*  letter-spacing: 0.2em;  */
+	position: relative;
+}
+
+#p_analisis_de_procesos a {
+	text-decoration: none;
+	color: rgb(3, 213, 250);
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-weight: bold;
+	/* text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8); */
+	text-shadow: 3px 3px 3px #ababab;
+	line-height: 1.2rem;
+	font-size: 1.5rem;
+	/*  letter-spacing: 0.2em;  */
+	position: relative;
+}
+
+#p_seguridad a {
+	text-decoration: none;
+	color: rgb(3, 213, 250);
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-weight: bold;
+	/* text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8); */
+	text-shadow: 3px 3px 3px #ababab;
+	line-height: 1.2rem;
+	font-size: 1.4rem;
+	/*  letter-spacing: 0.2em;  */
+	position: relative;
+}
+
+#p_crm a {
+	text-decoration: none;
+	color: rgb(3, 213, 250);
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-weight: bold;
+	/* text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8); */
+	text-shadow: 3px 3px 3px #858181;
+	line-height: 1.2rem;
+	font-size: 1.5rem;
+	position: relative;
+}
+
+#p_desarrollo a {
+	text-decoration: none;
+	color: rgb(3, 213, 250);
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-weight: bold;
+	/* text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8); */
+	text-shadow: 3px 3px 3px #858181;
+	line-height: 1.2rem;
+	font-size: 1.5rem;
+	position: relative;
+}
+
+#p_analisis_de_informacion :hover {
+	color: #f3f706;
+	background-color: rgba(255, 255, 255, 0.158);
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+#p_analisis_de_procesos :hover {
+	color: #f3f706;
+	background-color: rgba(255, 255, 255, 0.158);
+	border-radius: 4px;
+}
+
+#p_seguridad :hover {
+	color: #f70e06;
+	background-color: rgba(255, 255, 255, 0.158);
+	border-radius: 4px;
+}
+
+#p_crm :hover {
+	color: #f3f706;
+	background-color: rgba(255, 255, 255, 0.158);
+	border-radius: 4px;
+}
+
+#p_desarrollo :hover {
+	color: #f3f706;
+	background-color: rgba(255, 255, 255, 0.158);
+	border-radius: 4px;
+}
+
+.fa_seguridad {
+	width: 16px;
+	height: 16px;
+}
+
+.slice_seguridad {
+	/*   position: relative;  */
+	position: absolute;
+	z-index: 1;
+	left: 100%;
+	height: 100%;
+	width: 100%;
+	background-image: url(img/Fondo_de_Graficas_3.webp);
+	background-size: cover;
+	box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
+	transform-style: preserve-3d;
+	transform-origin: center left;
+	transition: transform 0.8s, box-shadow 0.8s;
+}
+
+.slice_seguridad::after {
+	content: "";
+	display: block;
+	position: absolute;
+	/*	position: relative;  */
+	z-index: 0;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
+	transition: opacity 0.6s;
+}
+
+.slice-1_seguridad {
+	background-position: 0 0;
+}
+
+.slice-2_seguridad {
+	background-position: 33.3% 0;
+}
+
+.slice-3_seguridad {
+	background-position: 66.6% 0;
+}
+
+.slice-4_seguridad {
+	background-position: 100% 0;
+}
+
+.slice-parent_seguridad {
+	/*   position: absolute;  */
+	position: relative;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 25%;
+}
+
+.slide-container_seguridad:hover .slice_seguridad::after {
+	opacity: 0.8;
+}
+
+.slide-container_seguridad:hover .slice-1_seguridad {
+	transform: rotateY(-60deg);
+	box-shadow: inset 10px -10px 40px rgba(0, 0, 0, 0.5);
+
+}
+
+.slide-container_seguridad:hover .slice-2_seguridad {
+	transform: rotateY(120deg);
+	box-shadow: inset -10px -10px 60px rgba(0, 0, 0, 0.7);
+}
+
+.slide-container_seguridad:hover .slice-3_seguridad {
+	transform: rotateY(-120deg);
+	box-shadow: inset 10px -10px 60px rgba(0, 0, 0, 0.7);
+}
+
+.slide-container_seguridad:hover .slice-4_seguridad {
+	transform: rotateY(120deg);
+	box-shadow: inset -10px -10px 40px rgba(0, 0, 0, 0.4);
+}
+
+/**************   Servicios_corto      *****************/    
+
+
+
+/***********************    ***********************/
+
+
+/* Media qurey section */
+
+/* Extra large desktop, 1200px and up */
+
+@media screen and (max-width:1200px) {
+
+	.logo_Zomitech {
+
+		height: auto;
+		top: auto;
+	}
+
+	.texto_zomitech {
+		box-sizing: border-box;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,  "AppleGothic", sans-serif;
+		margin: 10px;
+		padding: 2% 2% 2% 2%;
+
+		letter-spacing: 0.3rem;
+		width: 11.5rem;
+		height: 3.6rem;
+		font-weight: bold;
+		font-size: 1.7rem;
+
+		line-height: 2.5rem;
+		text-rendering: optimizeLegibility;
+		color: #b3e4ec;
+		background-color: rgba(82, 127, 134, 0.6);
+		text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
+			0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
+			0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
+			0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
+			0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+	}
+
+	.nav div.logo_y_Texto {
+		display: flex;
+		box-sizing: border-box;
+		float: left;
+		padding-top: 1rem;
+		padding-left: 3rem;
+		gap: 0.5rem;
+
+	}
+
+	.nav div.logo_y_Texto a {
+		text-decoration: none;
+		color: rgb(228, 213, 213);
+	}
+
+	.nav div.logo_y_Texto a:hover {
+		color: #0faae7;
+	}
+
+	.nav div.main_list ul {
+		max-width: 99.9vw;
+		display: flex;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+	}
+
+	.nav div.main_list ul li {
+		width: max-content;
+		padding: 0.1rem;
+		text-align: center;
+	}
+
+	.nav div.main_list ul li a {
+		font-size: 1em;
+		font-weight: bold;
+		margin-right: 15px;
+	}
+
+
+	/* Home section */
+
+	.navTrigger {
+		display: none;
+	}
+
+	.nav {
+		-webkit-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
+
+	/* Animation */
+
+	.navTrigger {
+		cursor: pointer;
+		width: 40px;
+		height: 25px;
+		margin: auto;
+		position: absolute;
+		right: 30px;
+		top: 0;
+		bottom: 0;
+		padding-bottom: 20px;
+	}
+
+	.navTrigger i {
+		/*	background-color: #fff;  */
+		background-color: rgb(10, 0, 0);
+		border-radius: 2px;
+		content: "";
+		display: block;
+		max-width: 99.9vw;
+		height: 4px;
+	}
+
+	.navTrigger i:nth-child(1) {
+		-webkit-animation: outT 0.8s backwards;
+		animation: outT 0.8s backwards;
+		-webkit-animation-direction: reverse;
+		animation-direction: reverse;
+	}
+
+	.navTrigger i:nth-child(2) {
+		margin: 5px 0;
+		-webkit-animation: outM 0.8s backwards;
+		animation: outM 0.8s backwards;
+		-webkit-animation-direction: reverse;
+		animation-direction: reverse;
+	}
+
+	.navTrigger i:nth-child(3) {
+		-webkit-animation: outBtm 0.8s backwards;
+		animation: outBtm 0.8s backwards;
+		-webkit-animation-direction: reverse;
+		animation-direction: reverse;
+	}
+
+	.navTrigger.active i:nth-child(1) {
+		-webkit-animation: inT 0.8s forwards;
+		animation: inT 0.8s forwards;
+	}
+
+	.navTrigger.active i:nth-child(2) {
+		-webkit-animation: inM 0.8s forwards;
+		animation: inM 0.8s forwards;
+	}
+
+	.navTrigger.active i:nth-child(3) {
+		-webkit-animation: inBtm 0.8s forwards;
+		animation: inBtm 0.8s forwards;
+	}
+
+	.affix {
+		padding: 0;
+		background-color: rgb(28, 148, 184);
+	}
+
+	/***************    Animacion de Tarjeta ************/
+
+	.slide-container_seguridad {
+
+		/*   position: absolute;  */
+		position: relative;
+		top: calc(50% - 14rem);
+		left: calc(50% - 18rem);
+		width: 40rem;
+		height: 30rem;
+		z-index: 0;
+	}
+
+	.slide-container_seguridad::after {
+		content: "";
+		display: block;
+		/*   position: relative;  */
+		position: absolute;
+		z-index: 0;
+		top: 7.5%;
+		left: 2.5%;
+		width: 95%;
+		height: 95%;
+		background-color: rgba(0, 0, 0, 0.8);
+		filter: blur(24px);
+	}
+
+	.slide_seguridad {
+		/*   position: relative;  */
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		height: 90%;
+		width: 90%;
+		cursor: url(Logo_Zomitech_sin_letras_2.webp), auto;
+		background-color: #4a4a4a;
+		perspective: 1500px;
+	}
+
+	.slide_seguridad::before {
+		content: "";
+		display: block;
+		/*   position: relative;  */
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 50%;
+		height: 100%;
+		/* background-image: url(img/Fondo_de_Graficas_3.webp);  */
+		background-color: rgba(12, 12, 12, 0.445);
+		background-size: cover;
+		opacity: 0.6;
+		filter: blur(2px);
+	}
+
+	.slide-text_seguridad {
+		/*   position: relative;  */
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		right: 0;
+		width: 50%;
+		height: 100%;
+		box-sizing: border-box;
+		/* 	padding: 20px; */
+		padding: 20px;
+	}
+
+	.title_seguridad {
+
+		font-size: 2rem;
+		margin: 1.5rem 0;
+		color: white;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 1.2rem;
+	}
+
+	.rating_seguridad {
+		margin: 0rem 0;
+	}
+
+	.summary_seguridad {
+		margin: 8px 0;
+	}
+
+	#p_analisis_de_informacion a {
+		text-decoration: none;
+		color: rgb(3, 213, 250);
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 1.5rem;
+		font-size: 1.5rem;
+
+		/*  letter-spacing: 0.04rem;  */
+		position: relative;
+	}
+
+	#p_analisis_de_procesos a {
+		text-decoration: none;
+		color: rgb(3, 213, 250);
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,"AppleGothic", sans-serif;
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 1.5rem;
+		font-size: 1.5rem;
+		letter-spacing: 0.04rem;
+		position: relative;
+	}
+
+	#p_seguridad a {
+		text-decoration: none;
+		color: rgb(3, 213, 250);
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,"AppleGothic", sans-serif;
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 1.5rem;
+		font-size: 1.3rem;
+		letter-spacing: 0.04rem;
+		position: relative;
+	}
+
+	#p_crm a {
+		text-decoration: none;
+		color: rgb(3, 213, 250);
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,"AppleGothic", sans-serif;
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 1.5rem;
+		font-size: 1.5rem;
+		letter-spacing: 0.04rem;
+		position: relative;
+	}
+
+	#p_desarrollo a {
+		text-decoration: none;
+		color: rgb(3, 213, 250);
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 1.5rem;
+		font-size: 1.4rem;
+		letter-spacing: 0.04rem;
+		position: relative;
+	}
+
+	#p_analisis_de_informacion :hover {
+		color: #f3f706;
+		background-color: rgba(255, 255, 255, 0.158);
+		border-radius: 4px;
+		text-decoration: none;
+	}
+
+	#p_analisis_de_procesos :hover {
+		color: #f3f706;
+		background-color: rgba(255, 255, 255, 0.158);
+		border-radius: 4px;
+	}
+
+	#p_seguridad :hover {
+		color: #f70e06;
+		background-color: rgba(255, 255, 255, 0.158);
+		border-radius: 4px;
+	}
+
+	#p_crm :hover {
+		color: #f3f706;
+		background-color: rgba(255, 255, 255, 0.158);
+		border-radius: 4px;
+	}
+
+	#p_desarrollo :hover {
+		color: #f3f706;
+		background-color: rgba(255, 255, 255, 0.158);
+		border-radius: 4px;
+	}
+
+	.fa_seguridad {
+		width: 16px;
+		height: 16px;
+	}
+
+	.slice_seguridad {
+
+		/*   position: relative;  */
+		position: absolute;
+
+		z-index: 1;
+
+		left: 100%;
+		height: 100%;
+		width: 100%;
+
+		background-image: url(img/Fondo_de_Graficas_3.webp);
+
+		background-size: cover;
+		box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
+		transform-style: preserve-3d;
+		transform-origin: center left;
+		transition: transform 0.8s, box-shadow 0.8s;
+	}
+
+	.slice_seguridad::after {
+		content: "";
+		display: block;
+		position: absolute;
+		/*	position: relative;  */
+		z-index: 0;
+		top: 0%;
+		left: 0%;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		box-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
+		transition: opacity 0.6s;
+	}
+
+	.slice-1_seguridad {
+		background-position: 0 0;
+	}
+
+	.slice-2_seguridad {
+		background-position: 33.3% 0;
+	}
+
+	.slice-3_seguridad {
+		background-position: 66.6% 0;
+	}
+
+	.slice-4_seguridad {
+		background-position: 100% 0;
+	}
+
+	.slice-parent_seguridad {
+		/*   position: absolute;  */
+		position: relative;
+		left: 0;
+		top: 0;
+
+		height: 100%;
+		width: 25%;
+	}
+
+	.slide-container_seguridad:hover .slice_seguridad::after {
+		opacity: 0.8;
+	}
+
+	.slide-container_seguridad:hover .slice-1_seguridad {
+		transform: rotateY(-60deg);
+		box-shadow: inset 10px -10px 40px rgba(0, 0, 0, 0.5);
+
+	}
+
+	.slide-container_seguridad:hover .slice-2_seguridad {
+		transform: rotateY(120deg);
+		box-shadow: inset -10px -10px 60px rgba(0, 0, 0, 0.7);
+	}
+
+	.slide-container_seguridad:hover .slice-3_seguridad {
+		transform: rotateY(-120deg);
+		box-shadow: inset 10px -10px 60px rgba(0, 0, 0, 0.7);
+	}
+
+	.slide-container_seguridad:hover .slice-4_seguridad {
+		transform: rotateY(120deg);
+		box-shadow: inset -10px -10px 40px rgba(0, 0, 0, 0.4);
+	}
+/************ Quienes Somos   ******************/
+
+.q_somos_corto {
+	box-sizing: border-box;
+  /*  display:flex;  */
+    max-width: 99.9vw;
+    height: 98%; 
+    background-color:rgba(87, 126, 133, 0.699);
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.tit_somos{
+    box-sizing: border-box;
+    position: relative;
+    font-size: 2.5rem;
+    text-shadow: 2px 0.8px 0.8px rgba(144, 189, 219, 0.979);
+    margin: auto;
+	padding-left: 30px;
+}
+
+.contenido_q_somos_corto{ 
+    display:grid;
+    width: 99%;
+    height: 99%; 
+    position: relative;
+    grid:
+     " cabecera            cabecera         "  0.1fr
+     " texto_zomi          texto_nacemos    "  0.5fr
+     " text_inteligencia   texto_desarrollo "  0.5fr /
+        0.1fr                   1fr             ;    
+     gap:15px;
+     padding:15px;   
+}
+
+.cabecera {
+    grid-area:cabecera;
+    box-sizing: border-box;
+}
+
+.img_q_somos_corto{
+    box-sizing: border-box;
+    position: relative;
+    width:97%;
+    height:auto;
+	margin:auto;
+	border-radius: 10px;
+}
+
+.texto_zomi{
+    grid-area:texto_zomi;
+	margin:auto;
+  /*   background-color: rgba(238, 113, 24, 0.644);  */
+
+}
+
+.text_inteligencia{
+    grid-area:text_inteligencia;
+	margin:auto;
+ /*   background-color: rgba(238, 113, 24, 0.644);  */
+
+}
+
+.glass_nacemos{
+	width:90%;
+	height: auto;
+	margin:auto;
+	background-color: rgb(255,255,255,0.1);
+  /*  background-color: rgba(115, 238, 34, 0.329);  */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    border: 2px solid transparent;
+    background-clip: padding-box; 
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height:2;
+}
+
+.texto_nacemos{
+    grid-area:texto_nacemos;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 1.8rem;
+    text-align: justify;
+  
+	margin-top: 1.5rem;;
+}
+
+.glass-desarrollo{
+	width:90%;
+	height: auto;
+	margin:auto;
+    background-color: rgb(255,255,255,0.1); 
+/*    background-color: rgba(8, 193, 240, 0.329);  */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    border: 2px solid transparent;
+    background-clip: padding-box; 
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height:2;
+}
+
+.texto_desarrollo{
+    grid-area:texto_desarrollo;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 1.8rem;
+    text-align: justify; 
+}
+
+.texto_zomi{
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+	margin:auto;
+    font-size: 1.7rem;
+ 	writing-mode: tb-rl;
+	writing-mode: vertical-rl; 
+    text-align: justify;
+    
+}
+
+.text_inteligencia{
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+	margin:auto;
+    font-size: 1.7rem;
+ 	writing-mode: tb-rl;
+	writing-mode: vertical-rl; 
+    text-align: justify;
+   
+}
+
+/***/***************************** Servicios tarjetas    ******************************/
+.servicios_corto {  
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.tit_servicios_corto {  
+    font-size: 1.6rem;
+    width: 99%;
+    height: 5rem;
+}
+
+.contenido_servicios_corto {
+    display: grid;
+    max-width: 99%;
+    height: 99%;
+    position: relative;
+	grid:
+	"txt_servicios_corto     txt_servicios_corto    " 1fr		 
+	"img_serv_corto          img_serv_corto         " 1fr		
+	"txt_servicios_corto_2   txt_servicios_corto_2  " 1fr		
+	"card_analisis_de_info   card_analisis_procesos " 1fr
+	"card_seguridad          card_crm   " 1fr		 
+	"card_desarrollo         card_scada " 1fr /
+		2fr                     2fr;
+    gap: 10px;
+    padding: 10px;
+}
+.txt_servicios_corto{
+	font-size: 1.2rem; 
+  }
+  
+  .txt_servicios_corto_2{
+	font-size: 1.2rem; 
+  }
+
+.img_serv_corto {
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card {
+    width: 18rem;
+    height: 25rem;
+  }
+
+/*****************************    ******************************/
+/***************************** Corto Hexagonal   ******************************/
+.cuerpo_hexagono {
+	height: 90vh;
+  }
+  
+.honeycomb-cell:nth-child(4n) {
+	margin-right: calc(20% - 100px);
+	margin-left: calc(20% - 100px);
+  }
+
+  .honeycomb__placeholder:nth-child(6n+4) {
+	display: block;
+  }
+}
+/*****************************    ******************************/
+/* Large devices (desktop, 992px and up */
+
+@media screen and (max-width:996px) {
+
+	.navTrigger {
+		display: block;
+	}
+
+	.nav div.logo_y_Texto {
+		margin-left: 15px;
+	}
+
+	.nav div.main_list {
+		width: 99.9vw;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.nav div.show_list {
+		height: 100%;
+		display: none;
+	}
+
+	.nav div.main_list ul {
+		flex-direction: column;
+		max-width: 99.9vw;
+		height: 100vh;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background-color: rgb(28, 148, 184);
+		/*same background color of navbar*/
+		background-position: center top;
+	}
+
+	.nav div.main_list ul li {
+		max-width: 99.9vw;
+		text-align: right;
+	}
+
+	.nav div.main_list ul li a {
+		text-align: center;
+		width: 99.9vw;
+		font-size: 1.7rem;
+		padding: 0px;
+	}
+
+	.nav div.media_button {
+		display: block;
+	}
+
+	.servicios_en_landin {
+		display: grid;
+		max-width: 99.9vw;
+		max-height: 99.8%;
+
+		grid:
+			"nav_landing       " 0.09fr 
+			"t_animado         " 0.1fr 
+			"anima_cabezas     " 0.1fr 
+			"servicios         " 0.1fr 
+			"enfoque           " 0.1fr 
+			"accion_sol_info   " 0.1fr 
+			"glinch            " 0.1fr / 1fr;
+
+		gap: 10px;
+		padding: 10px;
+	}
+
+	/* Texto te ayudamos  */
+	.seccion_texto_animado {
+		margin-top: 2.5rem;
+		height: 3rem;
+		padding-top: 0.4rem;
+	}
+
+	.texto_te_ayudamos_a {
+		font: bold 25px/30px Montserrat, sans-serif; 
+		font-size: 1.8rem;
+	}
+
+	.texto_te_ayudamos_a p {
+		position: relative;
+		float: left;
+		height: 0.9rem;
+		left: 0.4rem;
+		margin-right: 0.3rem;
+	}
+
+	.texto_te_ayudamos_a b {
+		float: left;
+		overflow: hidden;
+		position: relative;
+		top: 0;
+		left: 1rem;
+		width: 25rem;
+		height: 1.8rem;
+	}
+
+	.texto_te_ayudamos_a .texto_animado {
+		display: inline-block;
+		background-color: rgba(243, 247, 6, 0.973);
+		color: #0e0d0d;
+		text-shadow: 2px 0.8px 0.8px rgba(244, 246, 247, 0.979);
+		position: relative;
+		white-space: nowrap;
+		top: 0;
+		left: 0;
+		width: 37.5rem;
+
+		/*animation*/
+		-webkit-animation: move 15s;
+		-moz-animation: move 15s;
+		-ms-animation: move 15s;
+		-o-animation: move 15s;
+		animation: move 15s;
+
+		/*animation-iteration-count*/
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+
+		/*animation-delay*/
+		-webkit-animation-delay: 2s;
+		-moz-animation-delay: 2s;
+		-ms-animation-delay: 2s;
+		-o-animation-delay: 2s;
+		animation-delay: 2s;
+	}
+
+	@keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	@-webkit-keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	@-moz-keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	@keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	/***********Quienes Somos   ****************/
+	.tit_somos{
+		box-sizing: border-box;
+		position: relative;
+		font-size: 2rem;
+		/*  text-shadow: 2px 0.8px 0.8px rgba(144, 189, 219, 0.979);  */
+		margin: auto;
+	}
+	
+	.contenido_q_somos_corto{ 
+		display:grid;
+		width: 99.5%;
+		height: 99.9%; 
+		position: relative;
+		grid:
+		 " cabecera           cabecera         " 0.1fr
+		 " texto_zomi         texto_nacemos    " 0.5fr 
+		 "text_inteligencia   texto_desarrollo " 0.5fr /
+		   0.1fr             1fr ;    
+		 gap:15px;
+		 padding:15px;  
+	}
+	
+	.cabecera{
+		grid-area:cabecera;
+		box-sizing: border-box;
+	}
+	
+	.img_q_somos_corto{  
+		position: relative;
+		width:97%;
+		height:100%;
+	}
+	
+	.texto_zomi{  
+	   grid-area:texto_zomi;
+	   box-sizing: border-box;
+	
+	}
+	
+	.text_inteligencia{
+		box-sizing: border-box;
+		grid-area:text_inteligencia;
+		
+	}
+	
+	.glass_nacemos{
+		box-sizing: border-box;	
+		width:98%;
+		height: auto;
+		background-color: rgb(255,255,255,0.1);
+	  /*  background-color: rgba(115, 238, 34, 0.329);  */
+		padding: 15px;
+		border-radius: 5px;
+		backdrop-filter: blur(30px);
+		border: 2px solid transparent;
+		background-clip: padding-box; 
+		box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+		line-height:2;
+	}
+	
+	.texto_nacemos{
+		grid-area:texto_nacemos;
+		box-sizing: border-box;
+		width: 98%;
+		position: relative;
+		font-size: 1.2rem;
+		text-align: justify;
+	
+		margin-top: 1rem;
+	}
+	
+	.glass-desarrollo{
+		box-sizing: border-box;
+		width:98%;
+		height: auto;
+	   background-color: rgb(255,255,255,0.1); 
+	/*    background-color: rgba(8, 193, 240, 0.329);  */
+		padding: 15px;
+		border-radius: 5px;
+		backdrop-filter: blur(30px);
+		border: 2px solid transparent;
+		background-clip: padding-box; 
+		box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+		line-height:2;
+	}
+	
+	.texto_desarrollo{
+		grid-area:texto_desarrollo;
+		box-sizing: border-box;
+		width: 98%;
+		position: relative;
+		font-size: 1.2rem;
+		text-align: justify;
+		
+	}
+	
+	.texto_zomi{
+		box-sizing: border-box;
+		position: relative;
+		font-size: 1.2rem;
+		writing-mode: tb-rl;
+		writing-mode: vertical-rl; 
+		text-align: justify;
+	
+	}
+	
+	.text_inteligencia{
+		box-sizing: border-box;
+		position: relative;
+		font-size: 1.2rem;
+		writing-mode: tb-rl;
+		writing-mode: vertical-rl; 
+		text-align: justify;
+	
+	}
+	
+/*****************************        ******************************/	
+/***************************** Servicios tarjetas    ******************************/
+.servicios_corto {  
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.contenido_servicios_corto {
+    display: grid;
+    max-width: 99%;
+    height: 99%;
+    position: relative;
+	grid:
+		"txt_servicios_corto     txt_servicios_corto    " 1fr		 
+		"img_serv_corto          img_serv_corto         " 1fr		
+		"txt_servicios_corto_2   txt_servicios_corto_2  " 1fr		
+		"card_analisis_de_info   card_analisis_procesos " 1fr
+		"card_seguridad          card_crm   " 1fr		 
+		"card_desarrollo         card_scada " 1fr /
+			2fr                     2fr;
+    gap: 15px;
+    padding: 15px;
+}
+
+.txt_servicios_corto{	
+	font-size: 1rem; 
+  }
+  .txt_servicios_corto_2{
+	padding-top: 1rem;
+	padding-left: 1rem;
+	font-size: 1rem; 
+  }
+
+.img_serv_corto {
+    background-size: 85% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card {
+    width: 18rem;
+    height: 25rem;
+  }
+
+
+/***************************** Corto Hexagonal   ******************************/
+.cuerpo_hexagono {
+	height: auto;
+  }
+  
+.honeycomb-cell:nth-child(4n) {
+	margin-right: calc(20% - 100px);
+	margin-left: calc(20% - 100px);
+  }
+
+  .honeycomb__placeholder:nth-child(7n+5) {
+	display: block;
+  }
+}
+/*****************************    ******************************/
+/* Medium devices (Tablets, 768px and up */
+
+@media screen and (max-width: 768px) {
+
+	.navTrigger {
+		display: block;
+	}
+
+	.nav div.logo_y_Texto {
+		margin-left: 10px;
+	}
+
+	.nav div.main_list {
+		width: 100%;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.nav div.show_list {
+		height: auto;
+		display: none;
+	}
+
+	.nav div.main_list ul {
+		flex-direction: column;
+		width:99.9%;
+		height: 100vh;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background-color: rgb(28, 148, 184);
+		/*same background color of navbar*/
+		background-position: center top;
+	}
+
+	.nav div.main_list ul li {
+		width: 99.9%;
+		text-align: right;
+	}
+
+	.nav div.main_list ul li a {
+		text-align: center;
+		width: 100%;
+		font-size: 1.3rem;
+		padding: 10px;
+	}
+
+	.nav div.media_button {
+		display: block;
+	}
+
+	.servicios_en_landin {
+		display: grid;
+		max-width: 99.9%;
+		max-height: 98%;
+
+		grid:
+			"nav_landing       " 0.1fr 
+			"t_animado         " 0.1fr 
+			"anima_cabezas     " 0.1fr 
+			"servicios         " 0.1fr 
+			"enfoque           " 0.1fr 
+			"accion_sol_info   " 0.1fr 
+			"glinch            " 0.1fr / 1fr;
+
+		gap: 10px;
+		padding: 10px;
+
+	}
+	/***************    Animacion de Te ayudamos ************/
+	/* Texto te ayudamos  */
+	.seccion_texto_animado {
+		margin-top: 2.5rem;
+		height: 2.5rem;
+		padding-top: 0.4rem;
+	}
+
+	.texto_te_ayudamos_a {
+
+		/*	font: bold 25px/30px Montserrat, sans-serif;   */
+
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-size: 1.4rem;
+	}
+
+	.texto_te_ayudamos_a p {
+
+		position: relative;
+		float: left;
+		height: 0.9rem;
+		left: 0.4rem;
+		margin-right: 0.4rem;
+
+	}
+
+	.texto_te_ayudamos_a b {
+
+		float: left;
+		overflow: hidden;
+		position: relative;
+		top: 0;
+		left: 1rem;
+		width: 18rem;
+		height: 1.7rem;
+	}
+
+	.texto_te_ayudamos_a .texto_animado {
+		display: inline-block;
+		background-color: rgba(243, 247, 6, 0.973);
+		color: #0e0d0d;
+		text-shadow: 2px 0.8px 0.8px rgba(244, 246, 247, 0.979);
+		position: relative;
+		white-space: nowrap;
+		top: 0;
+		left: 0;
+		width: 36.5rem;
+
+		/*animation*/
+		-webkit-animation: move 15s;
+		-moz-animation: move 15s;
+		-ms-animation: move 15s;
+		-o-animation: move 15s;
+		animation: move 15s;
+
+		/*animation-iteration-count*/
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+
+		/*animation-delay*/
+		-webkit-animation-delay: 2s;
+		-moz-animation-delay: 2s;
+		-ms-animation-delay: 2s;
+		-o-animation-delay: 2s;
+		animation-delay: 2s;
+	}
+
+	@keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	@-webkit-keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	@-moz-keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	@keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	/***********Quienes Somos   ****************/
+	.tit_somos{
+		box-sizing: border-box;
+		position: relative;
+		font-size: 1.5rem;
+	
+		margin: auto;
+	}
+	
+	.contenido_q_somos_corto{ 
+		display:grid;
+		width: 99%;
+		height: 99.9%; 
+		position: relative;
+		grid:
+		 " cabecera           cabecera         " 0.1fr
+		 " texto_zomi         texto_nacemos    " 0.5fr 
+		 "text_inteligencia   texto_desarrollo " 0.5fr /
+		   0.1fr             1fr ;    
+		 gap:5px;
+		 padding:5px;   
+	}
+	
+	.cabecera{
+		grid-area:cabecera;
+		box-sizing: border-box;
+	}
+	
+	.img_q_somos_corto{  
+		position: relative;
+		width:98%;
+		height:100%;
+	}
+	
+	.texto_zomi{  
+	   grid-area:texto_zomi;
+	   box-sizing: border-box;
+	   margin: auto;
+	}
+	
+	.text_inteligencia{	
+		grid-area:text_inteligencia;
+		box-sizing: border-box;
+	}
+	
+	.glass_nacemos{
+		box-sizing: border-box;	
+		width:98%;
+		height: auto;
+		background-color: rgb(255,255,255,0.1);
+	  /*  background-color: rgba(115, 238, 34, 0.329);  */
+		padding: 15px;
+		border-radius: 5px;
+		backdrop-filter: blur(30px);
+		border: 2px solid transparent;
+		background-clip: padding-box; 
+		box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+		line-height:1.6;
+	}
+	
+	.texto_nacemos{
+		grid-area:texto_nacemos;
+		box-sizing: border-box;
+		width: 98%;
+		position: relative;
+		font-size: 1.1rem;
+		text-align: justify;
+	
+		margin-top: 1.2rem;;
+	}
+	
+	.glass-desarrollo{
+		box-sizing: border-box;
+		width:98%;
+		height: auto;
+	   background-color: rgb(255,255,255,0.1); 
+	/*    background-color: rgba(8, 193, 240, 0.329);  */
+		padding: 15px;
+		border-radius: 5px;
+		backdrop-filter: blur(30px);
+		border: 2px solid transparent;
+		background-clip: padding-box; 
+		box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+		line-height:1.6;
+	}
+	
+	.texto_desarrollo{
+		grid-area:texto_desarrollo;
+		box-sizing: border-box;
+		width: 98%;
+		position: relative;
+		font-size: 1.2rem;
+		text-align: justify;
+	
+	}
+	
+	.texto_zomi{	   
+		box-sizing: border-box;
+		position: relative;
+		font-size: 1.2rem;
+		 writing-mode: tb-rl;
+		writing-mode: vertical-rl; 
+		margin:auto;
+		
+	}
+	
+	.text_inteligencia{
+		box-sizing: border-box;
+		width: 100%;
+		position: relative;
+		font-size: 1.2rem;
+		writing-mode: tb-rl;
+		writing-mode: vertical-rl; 
+		margin:auto;
+		
+	}
+/*****************************        ******************************/
+.waves {
+    height: 40px;
+    min-height: 40px;
+  }
+  /***************************** Servicios tarjetas    ******************************/
+.servicios_corto {  
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.contenido_servicios_corto {
+    display: grid;
+    max-width: 99%;
+    height: 99%;
+    position: relative;
+    grid:
+		  "txt_servicios_corto" 0.3fr
+		  "img_serv_corto" 1fr
+		  "txt_servicios_corto_2" 0.3fr
+		  "card_analisis_de_info" 1fr
+		  "card_analisis_procesos" 1fr
+		  "card_seguridad" 1fr
+		  "card_crm      " 1fr
+		  "card_desarrollo" 1fr
+		  "card_scada     " 1fr /
+	       1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.txt_servicios_corto{
+	grid-area: txt_servicios_corto;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 0;
+	font-size: 1rem; 
+	color: #fff;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+	  1px 1px 0 #000;
+  }
+
+  .txt_servicios_corto_2{
+	grid-area: txt_servicios_corto_2;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 0;
+	font-size: 1rem; 
+	color: #fff;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+	  1px 1px 0 #000;
+  }
+
+.img_serv_corto {  
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+.card {
+    width: 18rem;
+    height: 25rem;
+  }
+
+ 
+/***************************** Corto Hexagonal   ******************************/
+.cuerpo_hexagono {
+	height: auto;
+  }
+  
+.honeycomb-cell:nth-child(4n) {
+	margin-right: calc(20% - 100px);
+	margin-left: calc(20% - 100px);
+  }
+
+  .honeycomb__placeholder:nth-child(7n+4) {
+	display: block;
+  }
+
+}
+/*****************************    ******************************/
+
+/* Small devices (landcape, phones, 576px and up  */
+
+@media screen and (max-width:576px) {
+
+	.nav div.logo_y_Texto {
+		display: flex;
+		box-sizing: border-box;
+
+		padding-top: 1rem;
+		padding-left: 0.1rem;
+	}
+
+	.nav div.main_list {
+		width: 100%;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.nav div.show_list {
+		height: auto;
+		display: none;
+	}
+
+	.nav div.main_list ul {
+		flex-direction: column;
+		width: 100%;
+		height: 100vh;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background-color: rgb(28, 148, 184);
+		background-position: center top;
+	}
+
+	.nav div.main_list ul li {
+		width: 100%;
+
+	}
+
+	.nav div.main_list ul li a {
+		text-align: center;
+		width: 100%;
+		font-size: 1.5rem;
+		padding: 0px;
+	}
+
+	.nav div.media_button {
+		display: block;
+	}
+
+	.logo_Zomitech {
+		width: 4rem;
+		height: 4rem;
+	}
+
+	.texto_zomitech {
+		box-sizing: border-box;
+		margin: 0.5rem;
+		letter-spacing: 0.3rem;
+		width: 10rem;
+		height: 2.8rem;
+		font-size: 1.4rem;
+		line-height: 1.6rem;
+	}
+
+	.servicios_en_landin {
+		display: grid;
+		max-width: 99.9%;
+		max-height: 99.9%;
+
+		grid:
+			"nav_landing       " 0.1fr 
+			"t_animado         " 0.1fr 
+			"anima_cabezas     " 0.1fr 
+			"servicios         " 0.1fr 
+			"enfoque           " 0.1fr 
+			"accion_sol_info   " 0.1fr 
+			"glinch            " 0.1fr / 1fr;
+
+		gap: 5px;
+		padding: 5px;
+
+	}
+	/***************    Animacion de Te ayudamos ************/
+	/* Texto te ayudamos  */
+	.seccion_texto_animado {
+		margin-top: 2.5rem;
+		height: 2.4rem;
+		padding-top: 0.2rem;
+	}
+
+	.texto_te_ayudamos_a {
+		font: bold 25px/30px Montserrat, sans-serif; 
+		font-size: 0.9rem; 
+	}
+
+	.texto_te_ayudamos_a p {
+		position: relative;
+		float: left;
+		height: 0.1rem;
+		left: 0.5rem;
+		margin-right: 0.3rem;
+	}
+
+	.texto_te_ayudamos_a b {
+		float: left;
+		overflow: hidden;
+		position: relative;
+		top: 0;
+		left: 0.7rem;
+		width: 13.5rem;
+		height: 1.9rem;
+	}
+
+	.texto_te_ayudamos_a .texto_animado {
+		display: inline-block;
+		background-color: rgba(243, 247, 6, 0.973);
+		color: #0e0d0d;
+		text-shadow: 2px 0.8px 0.8px rgba(244, 246, 247, 0.979);
+		position: relative;
+		white-space: nowrap;
+		top: 0;
+		left: 0;
+		width: 35rem;
+
+
+		-webkit-animation: move 15s;
+		-moz-animation: move 15s;
+		-ms-animation: move 15s;
+		-o-animation: move 15s;
+		animation: move 15s;
+
+
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+
+
+		-webkit-animation-delay: 2s;
+		-moz-animation-delay: 2s;
+		-ms-animation-delay: 2s;
+		-o-animation-delay: 2s;
+		animation-delay: 2s;
+	}
+
+	@keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	@-webkit-keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	@-moz-keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	@keyframes move {
+		0% {
+			top: 0px;
+		}
+
+		14% {
+			top: -2rem;
+		}
+
+		28% {
+			top: -3.9rem;
+		}
+
+		42% {
+			top: -5.7rem;
+		}
+
+		56% {
+			top: -7.5rem;
+		}
+
+		70% {
+			top: -9.3rem;
+		}
+
+		84% {
+			top: -11rem;
+		}
+	}
+
+	/***************    Animacion de Tarjeta ************/
+
+	.slide-container_seguridad {
+
+		/*   position: absolute;  */
+		position: relative;
+		top: calc(50% - 11rem);
+		left: calc(50% - 10rem);
+		max-width: 22rem;
+		height: 24rem;
+		z-index: 0;
+	}
+
+	.slide-container_seguridad::after {
+		content: "";
+		display: block;
+		/*   position: relative;  */
+		position: absolute;
+		z-index: 0;
+		top: 7.4%;
+		left: 2.5%;
+		max-width: 90%;
+		height: 90%;
+
+		background-color: rgba(0, 0, 0, 0.8);
+		filter: blur(24px);
+	}
+
+	.slide_seguridad {
+		/*   position: relative;  */
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		max-height: 90%;
+		max-width: 90%;
+		cursor: url(Logo_Zomitech_sin_letras_2.webp), auto;
+		background-color: #4a4a4a;
+		perspective: 1500px;
+	}
+
+	.slide_seguridad::before {
+		content: "";
+		display: block;
+		/*   position: relative;  */
+		position: absolute;
+		top: 0;
+		right: 0;
+		max-width: 99%;
+		height: 100%;
+
+		/* background-image: url(img/Fondo_de_Graficas_3.webp);  */
+		background-color: rgba(12, 12, 12, 0.445);
+		background-size: cover;
+		opacity: 0.6;
+		filter: blur(2px);
+	}
+
+	.slide-text_seguridad {
+		/*   position: relative;  */
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		right: 0;
+		width: 50%;
+		height: 100%;
+		box-sizing: border-box;
+		padding: 11px;
+	}
+
+	.title_seguridad {
+
+		font-size: 1.4rem;
+		margin: 1.2rem 0;
+		color: white;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 0.8rem;
+	}
+
+	.rating_seguridad {
+		margin: 0rem 0;
+	}
+
+	.summary_seguridad {
+		margin: 8px 0;
+	}
+
+	#p_analisis_de_informacion a {
+		text-decoration: none;
+		color: rgb(3, 213, 250);
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 0.9rem;
+		font-size: 1.1rem;
+		letter-spacing: 0.1em;
+		position: relative;
+	}
+
+	#p_analisis_de_procesos a {
+		text-decoration: none;
+		color: rgb(3, 213, 250);
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 0.9rem;
+		font-size: 1.1rem;
+		letter-spacing: 0.1em;
+		position: relative;
+	}
+
+	#p_seguridad a {
+		text-decoration: none;
+		color: rgb(3, 213, 250);
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 0.9rem;
+		font-size: 1.1rem;
+		letter-spacing: 0.1em;
+		position: relative;
+	}
+
+	#p_crm a {
+		text-decoration: none;
+		color: rgb(3, 213, 250);
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 0.9rem;
+		font-size: 1.1rem;
+		letter-spacing: 0.1em;
+		position: relative;
+	}
+
+	#p_desarrollo a {
+		text-decoration: none;
+		color: rgb(3, 213, 250);
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+		font-weight: bold;
+		text-shadow: 2px 0.8px 0.8px rgb(8, 8, 8);
+		line-height: 0.9rem;
+		font-size: 1.1rem;
+		position: relative;
+		letter-spacing: 0.1em;
+	}
+
+	#p_analisis_de_informacion :hover {
+		color: #f3f706;
+		background-color: rgba(255, 255, 255, 0.158);
+		border-radius: 4px;
+		text-decoration: none;
+	}
+
+	#p_analisis_de_procesos :hover {
+		color: #f3f706;
+		background-color: rgba(255, 255, 255, 0.158);
+		border-radius: 4px;
+	}
+
+	#p_seguridad :hover {
+		color: #f70e06;
+		background-color: rgba(255, 255, 255, 0.158);
+		border-radius: 4px;
+	}
+
+	#p_crm :hover {
+		color: #f3f706;
+		background-color: rgba(255, 255, 255, 0.158);
+		border-radius: 4px;
+	}
+
+	#p_desarrollo :hover {
+		color: #f3f706;
+		background-color: rgba(255, 255, 255, 0.158);
+		border-radius: 4px;
+	}
+
+	.fa_seguridad {
+		width: 15px;
+		height: 15px;
+	}
+
+	/***************    Texto Enfoque ************/
+
+	.enfoque {
+		padding: 1.2rem;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-size: 1.2rem;
+		text-shadow: 2px 0.8px 0.8px rgba(0, 7, 10, 0.884);
+	}
+
+	/***************    Texto Enfoque ************/
+	.texto_inteligencia {
+		padding-top: 0.2rem;
+		color: #fff;
+		font-size: 1.2rem;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-weight: bold;
+		font-weight: 40px;
+		letter-spacing: 0.1em;
+		text-shadow: 7px 6px 7px purple, -4px -4px 8px cyan;
+		/* text-shadow: 7px 7px 7px purple, -4px -4px 8px cyan;  */
+		animation: glitch 3s ease infinite;
+	}
+
+	/***********Quienes Somos   ****************/
+.tit_somos{
+    box-sizing: border-box;
+    position: relative;
+    font-size: 1.5rem;
+    /*  text-shadow: 2px 0.8px 0.8px rgba(144, 189, 219, 0.979);  */
+    margin: auto;
+}
+
+.contenido_q_somos_corto{ 
+    display:grid;
+    width: 99.5%;
+    height: 99.9%; 
+    position: relative;
+    grid:
+     " cabecera           cabecera         " 0.1fr
+	 " texto_zomi         texto_nacemos    " 0.5fr 
+	 "text_inteligencia   texto_desarrollo " 0.5fr /
+       0.1fr             1fr ;    
+     gap:5px;
+     padding:5px;   
+}
+
+.cabecera{
+    grid-area:cabecera;
+    box-sizing: border-box;
+}
+
+.img_q_somos_corto{  
+    position: relative;
+    width:98%;
+    height:100%;
+}
+
+.texto_zomi{  
+   grid-area:texto_zomi;
+   box-sizing: border-box;
+   margin: auto;
+}
+
+.text_inteligencia{
+    grid-area:text_inteligencia;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.glass_nacemos{
+	box-sizing: border-box;	
+    width:98%;
+    height: auto;
+	background-color: rgb(255,255,255,0.1);
+  /*  background-color: rgba(115, 238, 34, 0.329);  */
+    padding: 15px;
+    border-radius: 5px;
+    backdrop-filter: blur(30px);
+    border: 2px solid transparent;
+    background-clip: padding-box; 
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height:1.5;
+}
+
+.texto_nacemos{
+    grid-area:texto_nacemos;
+	box-sizing: border-box;
+	width: 98%;
+    position: relative;
+    font-size: 1.1rem;
+    text-align: justify;
+	margin-top: 1.2rem;;
+}
+
+.glass-desarrollo{
+	box-sizing: border-box;
+    width:98%;
+    height: auto;
+   background-color: rgb(255,255,255,0.1); 
+/*    background-color: rgba(8, 193, 240, 0.329);  */
+    padding: 15px;
+    border-radius: 5px;
+    backdrop-filter: blur(30px);
+    border: 2px solid transparent;
+    background-clip: padding-box; 
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height:1.5;
+}
+
+.texto_desarrollo{
+    grid-area:texto_desarrollo;
+	box-sizing: border-box;
+	width: 98%;
+    position: relative;
+    font-size: 1.1rem;
+    text-align: justify;
+   
+}
+
+.texto_zomi{  
+    box-sizing: border-box;
+    position: relative;
+    font-size: 1.2rem;
+ 	writing-mode: tb-rl;
+	writing-mode: vertical-rl; 
+    text-align: justify;
+  
+}
+
+.text_inteligencia{ 
+    box-sizing: border-box;
+    position: relative;
+    font-size: 1.2rem;
+ 	writing-mode: tb-rl;
+	writing-mode: vertical-rl; 
+    text-align: justify;
+   
+}
+/*****************************        ******************************/
+.waves {
+    height: 40px;
+    min-height: 40px;
+  }
+/***************************** Servicios tarjetas    ******************************/
+.servicios_corto {  
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.contenido_servicios_corto {
+    display: grid;
+    max-width: 98%;
+    height: 90%;
+    position: relative;
+    grid:
+		  "txt_servicios_corto" 0.2fr
+		  "img_serv_corto" 0.8fr
+		  "txt_servicios_corto_2" 0.2fr
+		  "card_analisis_de_info" 0.6fr
+		  "card_analisis_procesos" 0.6fr
+		  "card_seguridad" 0.6fr
+		  "card_crm      " 0.6fr
+		  "card_desarrollo" 0.6fr
+		  "card_scada     " 0.3fr /
+	       1fr;
+    gap: 10px;
+}
+
+.txt_servicios_corto{
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 0;
+	font-size: 0.99rem; 
+	color: #fff;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+	  1px 1px 0 #000;
+  }
+
+.txt_servicios_corto_2{
+	grid-area: txt_servicios_corto_2;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 0;
+	font-size: 1rem; 
+	color: #fff;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+	  1px 1px 0 #000;
+  }
+
+.img_serv_corto {  
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center top;
+	
+}
+
+.card {
+    width: 18rem;
+    height: 25rem;
+  }
+
+  footer .footer2 .content {
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 2rem;
+    padding: 1rem;
+    background: var(--footer-background);
+  }
+
+/***************************** Corto Hexagonal   ******************************/
+.cuerpo_hexagono {
+	height: auto;
+  }
+
+.honeycomb-cell:nth-child(4n) {
+	margin-right: calc(30% - 100px);
+	margin-left: calc(30% - 100px);
+  }
+
+  .honeycomb__placeholder:nth-child(4n+3) {
+	display: block;
+  }
+
+}

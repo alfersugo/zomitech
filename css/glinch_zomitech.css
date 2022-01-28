@@ -1,0 +1,69 @@
+.textos {
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	flex-direction: row;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin:auto;
+	background: rgb(0, 0, 0);
+	position: relative;
+}
+
+.texto_inteligencia {
+	color: #fff;
+	font-size: 3rem;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,  "AppleGothic", sans-serif;
+	font-weight: 700;
+	text-shadow: 6px 6px 6px purple, -4px -4px 8px cyan;
+	/* text-shadow: 7px 7px 7px purple, -4px -4px 8px cyan;  */
+	animation: glitch 3s ease infinite;
+}
+
+@keyframes glitch {
+
+	0%,
+	30%,
+	33%,
+	60%,
+	64%,
+	66%,
+	69%,
+	73%,
+	75%,
+	90%,
+	93%,
+	100% {
+		transform: skew(0deg);
+	}
+
+	31%,
+	91% {
+		transform: skew(10deg, 0deg);
+	}
+
+	32%,
+	92% {
+		transform: skew(-10deg, 0deg);
+	}
+
+	61% {
+		transform: skew(30deg);
+	}
+
+	62% {
+		transform: skew(-10deg, -5deg);
+	}
+
+	65% {
+		transform: skew(10deg, -5deg);
+	}
+
+	70% {
+		transform: skew(-60deg);
+	}
+
+	74% {
+		transform: skew(10deg, -10deg);
+	}
+}

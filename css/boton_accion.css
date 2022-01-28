@@ -1,0 +1,114 @@
+/*@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");  */
+
+.boton_accion {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    overflow: hidden;
+    border: 4px solid rgb(250, 248, 248);
+   /* font-family: "Lato", sans-serif;*/
+  /*  font-weight: 400;  */
+    transition: 0.7s;
+    letter-spacing: 5px;
+    border-radius: 8px;
+  }
+  .boton_accion button {
+    width: 100%;
+    height: 100%;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,  "AppleGothic", sans-serif;
+    font-size:1.5rem;   
+
+    /*  text-shadow: 2px 0.8px 0.8px rgba(24, 58, 66, 0.986);  */
+    text-shadow: 3px 3px 3px #ababab;
+
+    font-weight: 400;
+   /* font-size: 1.5rem;  */
+    letter-spacing: 5px;
+    font-weight: bold;
+    background: #000;
+    -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+    mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+    -webkit-mask-size: 3000% 100%;
+    mask-size: 3000% 100%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    -webkit-animation: ani2 0.8s steps(29) forwards;
+    animation: ani2 0.8s steps(29) forwards;
+  }
+
+  .boton_accion button:hover {
+    -webkit-animation: ani 0.8s steps(29) forwards;
+    animation: ani 0.8s steps(29) forwards;
+    border: 4px solid rgb(0, 0, 0);
+  }
+  
+  .boton_accion:hover {
+    -webkit-animation: ani 0.8s steps(29) forwards;
+    animation: ani 0.8s steps(29) forwards;
+    border: 4px solid rgb(0, 0, 0);
+  }
+  
+  .mas {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    height:100%;
+
+     /*font-family: 'Oleo Script', cursive; */
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,  "AppleGothic", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    font-size: 1.6rem;
+    text-shadow: 3px 3px 3px #ababab;
+    margin-top: 11px;
+    overflow: hidden;
+    font-weight: bold;
+    
+  }
+  
+  @-webkit-keyframes ani {
+    from {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+    to {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+  }
+  @keyframes ani {
+    from {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+    to {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+  }
+  @-webkit-keyframes ani2 {
+    from {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+    to {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+  }
+  @keyframes ani2 {
+    from {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+    to {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+}

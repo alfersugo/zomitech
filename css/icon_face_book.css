@@ -1,0 +1,29 @@
+.icono_hexagonal {
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    vertical-align: middle;
+    width: 3rem;
+  }
+ 
+   .icon_hexagonal {
+    position: relative;
+ 
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height:auto;
+  }
+ 
+   
+  .icon_hexagonal:hover{
+   width: 4rem;
+   height:auto;
+   position: absolute;
+   top:auto; 
+   margin: auto;
+   transition: all 0.6s ease;
+  }
+ 
+  
+ 

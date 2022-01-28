@@ -1,0 +1,17 @@
+
+
+.texto_siguenos{
+    box-sizing: border-box;
+    position: relative;
+    width:auto;
+    height: auto;
+
+    margin-top: 2vh;
+    overflow: hidden;
+   
+    font-family: 'Marck Script', cursive;
+    font-size:2rem;   
+    color: #000000;
+   /* text-shadow: 2px 0.8px 0.8px rgba(24, 58, 66, 0.986);   */
+    text-shadow: 3px 3px 3px #ababab;
+}

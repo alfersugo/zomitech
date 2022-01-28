@@ -1,0 +1,262 @@
+
+.servicios_corto {
+    box-sizing: border-box;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    line-height: 1.4;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    background-image: linear-gradient(196deg, #E5E1DC, #76777C);
+    width: 99%;
+}
+
+.tit_servicios_corto {
+    box-sizing: border-box;
+    position: relative;
+    font-size: 2.5rem;
+    width: 99%;
+    height: 6rem;
+    /*  text-shadow: 2px 0.8px 0.8px rgba(144, 189, 219, 0.979);  */
+    margin: auto;
+    padding-left: 100px;
+    color: #f5f6f8f1;
+    background-color: rgba(17, 17, 17, 0.815);
+    letter-spacing: 0.1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
+        0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
+        0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
+        0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
+        0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.contenido_servicios_corto {
+    display: grid;
+    max-width: 98%;
+    height: 99%;
+    position: relative;
+    overflow: hidden;
+    grid:
+         "txt_servicios_corto     img_serv_corto           txt_servicios_corto_2 " 1.2fr
+         "card_analisis_de_info   card_analisis_procesos   card_seguridad " 1fr
+         "card_crm                card_desarrollo          card_scada     " 1fr /
+          1fr                   1fr                  1fr; 
+    gap: 10px;
+}
+
+.txt_servicios_corto{
+  grid-area: txt_servicios_corto;
+  box-sizing: border-box;
+  width: 90%;
+  height:auto;
+  background-image: url("img/img_txt_1.webp");
+    
+ /* background-size: 100% auto; */
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  padding-top: 5rem;
+  padding-left: 2rem;
+  font-size: 1.2rem; 
+  color: #fff;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.txt_servicios_corto_2{
+  grid-area: txt_servicios_corto_2;
+  box-sizing: border-box;
+  width: 99%;
+  height:auto;
+
+ /* background-image: url("img/fondo_servicios_txt.svg"); */
+ /* background-size: 100% auto; */
+ 
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+  padding-top: 10rem;
+  padding-left: 2rem;
+  font-size: 1.2rem; 
+  color: #fff;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.img_serv_corto {
+    grid-area: img_serv_corto;
+    box-sizing: border-box;
+    width: 99%;
+    height:auto;
+    background-image: url("img/Servicios_cabeza.webp");
+    
+    /* background-size: 40% auto; */
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: auto;
+    
+   /*  width: 21rem;
+    height: auto;  */
+}
+
+.card_analisis_de_info {
+    grid-area: card_analisis_de_info;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+.card_analisis_procesos {
+    grid-area: card_analisis_procesos;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.card_seguridad {
+    grid-area: card_seguridad;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.card_crm {
+    grid-area: card_crm;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.card_desarrollo  {
+    grid-area: card_desarrollo ;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.card_scada {
+    grid-area: card_scada;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+/* p {
+    line-height: 0.6em;
+  } */
+  
+ /* h1 + p,
+  p + p  {
+    margin-top: 20px;
+  }  */
+  
+ .card-wrap {
+    margin: 25px;
+    transform: perspective(1200px);
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+
+  .card-wrap:hover .card-info {
+    transform: translateY(0);
+  }
+
+  .card-wrap:hover .card-info p {
+    opacity: 1;
+  }
+
+  .card-wrap:hover .card-info,
+  .card-wrap:hover .card-info p {
+    transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card-wrap:hover .card-info:after {
+    transition: 3s cubic-bezier(0.23, 1, 0.32, 1);
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .card-wrap:hover .card-bg {
+    transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1), opacity 4s cubic-bezier(0.23, 1, 0.32, 1);
+    opacity: 0.8;
+  }
+
+  .card-wrap:hover .card {
+    transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    box-shadow: none;
+  }
+  
+  .card {
+    position: relative;
+   
+    width: 21rem;
+    height: 22rem;
+    background-color: rgb(10, 10, 10);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset rgba(255, 255, 255, 0.4) 0 0 0 6px;
+    transition: 0.8s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  
+  .card-bg {
+    opacity: 0.5;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.8s cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 4s 0.8s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    pointer-events: none;
+  }
+  
+  .card-info {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    transform: translateY(40%);
+    transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  .card-info p {
+    opacity: 0;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+    transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  .card-info * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .card-info:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+    background-blend-mode: overlay;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  
+  .card-info h1  {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+   }
+  
+ 
+

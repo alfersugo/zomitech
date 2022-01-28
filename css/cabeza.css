@@ -1,0 +1,1234 @@
+
+
+.imagen_1 {  
+    box-sizing: border-box;
+    margin: auto;
+   
+    width: auto; 
+    height: auto; 
+    /*height: 80%;   */
+    justify-content: center;
+    align-items: center; 
+}
+
+.ilustration {
+   
+    box-sizing: border-box;
+    margin: auto;
+    
+    width: auto;
+    height: auto;
+ /*   justify-content: center;
+    align-items: center; */
+
+}
+
+
+#foco,
+#brillo_1,
+#brillo_2,
+#brillo_3,
+#brillo_4,
+#brillo_5 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    animation: cambio_de_color_foco 40s both infinite;
+}
+
+
+@keyframes cambio_de_color_foco {
+    0% {
+       
+        fill: rgb(248, 95, 6);
+        transform: translate(1%, 0%);
+    }
+
+    5% {
+       
+        fill: rgb(248, 246, 246);
+        transform: translate(1%, 1%);
+    }
+
+    10% {
+       
+        fill: rgb(160, 5, 47);
+        transform: translate(1%, 1.5%);
+    }
+
+    15% {
+       
+        fill: rgb(248, 246, 246);
+        transform: translate(-1%, 1.5%);
+    }
+
+    18% {
+       
+        fill: rgb(243, 110, 110);
+        transform: translate(-1%, -1.5%);
+    }
+
+    20% {
+       
+        fill: rgb(248, 246, 246);
+        transform: translate(-1%, -1.0%);
+       
+    }
+
+    25% {
+       
+        fill: rgb(252, 71, 0);
+        transform: translate(0%, -1.0%);
+    }
+
+    30% {
+       
+        fill: rgb(248, 246, 246);
+        transform: translate(0%, -0.5%);
+       
+    }
+
+    35% {
+      
+        fill: rgb(248, 252, 0);
+        transform: translate(0.5%, -0.5%);
+    }
+
+    38% {
+       
+        fill: rgb(248, 246, 246);
+        transform: translate(0.5%, 0.5%);
+    }
+
+    40% {
+      
+        fill: rgb(247, 14, 6);
+        transform: translate(1%, 0.5%);
+    }
+
+    45% {
+      
+        fill: rgb(248, 246, 246);
+        transform: translate(1%, 1%);
+    }
+
+    50% {
+      
+        fill: rgb(10, 10, 10);
+        transform: translate(1%, 1.5%);
+       
+    }
+
+    55% {
+      
+        fill: rgb(249, 250, 246);
+        transform: translate(1.5%, 1.5%);
+    }
+
+    58% {
+        
+        fill: rgb(248, 3, 207);
+        transform: translate(-1.5%, 1.5%);
+    }
+
+    60% {
+       
+        fill: rgb(244, 248, 248);
+        transform: translate(-1.5%, 0.5%);
+    }
+
+    65% {
+       
+        fill: rgb(4, 0, 252);
+        transform: translate(0%, 0.5%);
+    }
+
+    70% {
+       
+        fill: rgb(247, 248, 250);
+        transform: translate(0%, 1%);
+    }
+
+    75% {
+        
+        fill: rgb(146, 35, 250);
+        transform: translate(-1%, 1%);
+    }
+
+    78% {
+       
+        fill: rgb(243, 243, 248);
+        transform: translate(-1%, 0%);
+    }
+
+    80% {
+      
+        fill: rgb(252, 248, 0);
+        transform: translate(-1%, -2%);
+    }
+
+    85% {
+       
+        fill: rgb(250, 248, 250);
+        transform: translate(0%, -2%);
+    }
+
+    90% {
+      
+        fill: rgb(252, 0, 239);
+        transform: translate(0%, -1%);
+    }
+
+    95% {
+        
+        fill: rgb(0, 0, 0);
+        transform: translate(1%, -1%);
+    }
+
+    98% {
+       
+        fill: rgb(245, 5, 125);
+        transform: translate(1%, 0%);
+    }
+
+    100% {
+       
+        fill: rgb(248, 244, 246);
+        transform: translate(0%, 1%);
+    }
+}
+
+
+#cabeza_relleno,
+#cabeza_liniea_1,
+#cabeza_liniea_2,
+#cabeza_liniea_3,
+#cabeza_liniea_4,
+#cabeza_liniea_5,
+#cabeza_liniea_6,
+#cabeza_liniea_7,
+#cabeza_liniea_8,
+#cabeza_liniea_9,
+#cabeza_liniea_10,
+#cabeza_liniea_11,
+#cabeza_liniea_12,
+#cabeza_liniea_13,
+#cabeza_liniea_14,
+#cabeza_liniea_15,
+#cabeza_liniea_16,
+#cabeza_liniea_17,
+#cabeza_liniea_18,
+#cabeza_liniea_19,
+#cabeza_liniea_20,
+#cabeza_liniea_21,
+#cabeza_liniea_22,
+#cabeza_liniea_23 
+{
+    fill: rgba(22, 22, 21, 0.473);;
+    transform: translate(0%, 0%);
+    animation: cambio_de_color_cabeza 40s 1s both infinite;
+}
+
+
+@keyframes cambio_de_color_cabeza {
+    0% {
+       
+        fill: rgba(4, 34, 48, 0.7);
+        transform: translate(-0.5%, 0%);
+    }
+
+    5% {
+        
+        fill: rgba(3, 72, 104, 0.7);
+        transform: translate(-0.5%, 1%);
+    }
+
+    10% {
+      
+        fill: rgba(9, 160, 230, 0.7);
+        transform: translate(-1%, 1%);
+    }
+
+    15% {
+       
+        fill: rgba(6, 213, 250, 0.7);
+        transform: translate(1%, 2%);
+    }
+
+    18% {
+        
+        fill: rgba(6, 175, 105, 0.7);
+        transform: translate(1%, -2%);
+    }
+
+    20% {
+      
+        fill: rgba(7, 219, 89, 0.7);
+        transform: translate(-1%, -2%);
+    }
+
+    25% {
+      
+        fill: rgba(0, 252, 13, 0.7);
+        transform: translate(-1%, 2%);
+    }
+
+    30% {
+       
+        fill: rgba(101, 252, 0, 0.7);
+        transform: translate(-1%, 0%);
+    }
+
+    35% {
+      
+        fill: rgba(155, 252, 0, 0.7);
+        transform: translate(3%, 0%);
+    }
+
+    38% {
+       
+        fill: rgba(206, 252, 0, 0.7);
+        transform: translate(3%, -3%);
+    }
+
+    40% {
+      
+        fill: rgba(252, 248, 0, 0.7);
+        transform: translate(0%, -3%);
+    }
+
+    45% {
+      
+        fill: rgba(252, 193, 0, 0.7);
+        transform: translate(0%, 3%);
+    }
+
+    50% {
+      
+        fill: rgba(252, 134, 0, 0.7);
+        transform: translate(-3%, 3%);
+    }
+
+    55% {
+       
+        fill: rgba(252, 71, 0, 0.7);
+        transform: translate(-3%, 0%);
+    }
+    
+    58% {
+      
+        fill: rgba(252, 17, 0, 0.7);
+        transform: translate(-3%, -3%);
+    }
+
+    60% {
+      
+        fill: rgba(252, 0, 0, 0.7);
+        transform: translate(3%, -3%);
+    }
+
+    65% {
+      
+        fill: rgba(252, 0, 21, 0.7);
+        transform: translate(3%, 0%);
+    }
+
+    70% {
+      
+        fill:  rgba(252, 0, 63, 0.7);
+        transform: translate(0%, 0%);
+    }
+
+    75% {
+      
+        fill:  rgba(252, 0, 139, 0.7);
+        transform: translate(-4%, 0%);
+    }
+    
+
+    78% {
+      
+        fill: rgba(252, 0, 239, 0.7);
+        transform: translate(-4%, 4%);
+    }
+
+    80% {
+       
+        fill: rgba(151, 0, 252, 0.7);
+        transform: translate(0%, -4%);
+    }
+
+    85% {
+       
+        fill: rgba(38, 0, 252, 0.7);
+        transform: translate(5%, -4%);
+    }
+
+    90% {
+      
+        fill: rgba(0, 59, 252, 0.7);
+        transform: translate(5%, 5%);
+    }
+
+    95% {
+      
+        fill: rgba(0, 151, 252, 0.7);
+        transform: translate(0%, 5%);
+    }
+
+    98% {
+     
+        fill:  rgba(0, 252, 252, 0.7);
+        transform: translate(0%, 0%);
+    }
+
+    100% {
+      
+        fill:  rgba(0, 252, 155, 0.7);
+    }
+}
+
+/* -----------------------------------------  */
+#papeles,
+#papeles_1,
+#papeles_2,
+#papeles_3,
+#papeles_4,
+#papeles_5,
+#papeles_6,
+#papeles_7,
+#papeles_8,
+#papeles_9,
+#papeles_10,
+#papeles_11,
+#papeles_12,
+#papeles_13,
+#papeles_14,
+#papeles_15,
+#papeles_16,
+#papeles_17,
+#papeles_18,
+#papeles_19,
+#papeles_20,
+#papeles_21,
+#papeles_22,
+#papeles_23,
+#papeles_24,
+#papeles_25,
+#papeles_26,
+#papeles_27,
+#papeles_28,
+#papeles_29,
+#papeles_30,
+#papeles_31,
+#papeles_32,
+#papeles_33,
+#papeles_34,
+#papeles_35 {
+    fill: rgba(22, 22, 21, 0.473);;
+    transform: translate(0%, 0%);
+    animation: cambio_de_color_cabeza 10s 1s both infinite;
+}
+
+/* -----------------------------------------  */
+
+
+#flecha_1 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    animation: cambio_de_color_foco 40s both infinite;
+}
+
+
+#flecha_2 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    animation: cambio_de_color_foco 40s both infinite;
+}
+
+
+#flecha_3 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    animation: cambio_de_color_foco 40s both infinite;
+}
+
+
+#flecha_4 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    animation: cambio_de_color_foco 40s both infinite;
+}
+
+
+#cerebro,
+#cerebro_1 {
+    fill: rgb(8, 8, 8);
+    transform: translate(-20%, 10%);
+    position: relative;
+   
+    animation: move_adelante 20s infinite;
+}
+
+@keyframes move_adelante {
+    0% {
+        fill: rgb(238, 241, 7);
+
+    }
+    25% {
+        fill: rgb(250, 246, 246);
+
+    }
+    50% {
+        fill: rgb(12, 69, 240);
+
+    }
+
+    65% {
+        fill: rgb(250, 246, 246);
+
+    }
+    75% {
+        fill: rgb(231, 15, 15);
+
+    }
+
+    to {
+       
+        transform: scale(2.5, 4);
+    }
+
+}
+
+/*******************************************/
+
+#compu,
+#compu_1,
+#compu_2,
+#compu_3,
+#compu_4,
+#compu_5,
+#compu_6,
+#compu_7,
+#compu_8  {
+    fill: rgb(8, 8, 8);
+    transform: translate(10%, 10%);
+    position: relative;  
+    animation: move_atras 30s  infinite;
+}
+
+@keyframes move_atras {
+    0% {
+        fill: rgb(250, 4, 4);
+
+    }
+    50% {
+        fill: rgb(11, 80, 228);
+
+    }
+    75% {
+        fill: rgb(250, 246, 246);
+    }
+
+    to {   
+        transform: scale(0.9) translate(-100%, -100%);
+        fill: rgb(20, 20, 20);
+    }
+}
+
+/* -----------------------------------------  */
+
+
+
+#grafica_dinero,
+#grafica_dinero_rueda {
+    fill: rgb(8, 8, 8);
+   
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    position: relative;
+   
+    animation: move_sencillo 10s 2s both infinite;
+}
+
+@keyframes move_sencillo {
+
+    75% {
+        fill: rgb(245, 9, 9);
+
+    }
+    to {
+        transform: translate(0%, 0%);
+    }
+
+}
+/* -----------------------------------------  */
+
+#grafica_diag_circulos_0,
+#grafica_diag_circulos_1,
+#grafica_diag_circulos_2,
+#grafica_diag_circulos_3,
+#grafica_diag_circulos_4,
+#grafica_diag_circulos_5,
+#grafica_diag_circulos_6,
+#grafica_diag_circulos_7,
+#grafica_diag_circulos_8  {
+    fill: rgb(8, 8, 8);
+    transform: translate(-40%, -40%);
+    position: relative;
+   
+    animation: move_graf_circulos 55s 0.1s both infinite;
+}
+
+@keyframes move_graf_circulos {
+    0% {
+        fill: rgb(238, 241, 7);
+
+    }
+    25% {
+        fill: rgb(250, 246, 246);
+
+    }
+    50% {
+        fill: rgb(12, 69, 240);
+
+    }
+
+    65% {
+        fill: rgb(250, 246, 246);
+
+    }
+    75% {
+        fill: rgb(231, 15, 15);
+
+    }
+
+    to {
+       
+        transform: scale(9.5, 9);
+    }
+
+}
+
+/*******************************************/
+
+
+#grafica_diag_cuadrado_0,
+#grafica_diag_cuadrado_1,
+#grafica_diag_cuadrado_2,
+#grafica_diag_cuadrado_3,
+#grafica_diag_cuadrado_4,
+#grafica_diag_cuadrado_5,
+#grafica_diag_cuadrado_6,
+#grafica_diag_cuadrado_7 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    animation: cambio_de_color_cabeza 20s 2s both infinite;
+}
+
+#grafica_candado {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_glob_coment_0,
+#grafica_glob_coment_1,
+#grafica_glob_coment_2,
+#grafica_glob_coment_3,
+#grafica_glob_coment_4,
+#grafica_glob_coment_5,
+#grafica_glob_coment_6,
+#grafica_glob_coment_7,
+#grafica_glob_coment_8,
+#grafica_glob_coment_9,
+#grafica_glob_coment_10,
+#grafica_glob_coment_11 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_de_engrane_1,
+#grafica_de_engrane_2,
+#grafica_de_engrane_3,
+#grafica_de_engrane_4,
+#grafica_de_engrane_5,
+#grafica_de_engrane_6
+{
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    animation: cambio_de_color_cabeza 10s 1s both infinite;
+}
+
+#grafica_foco_idea_1,
+#grafica_foco_idea_2,
+#grafica_foco_idea_3,
+#grafica_foco_idea_4,
+#grafica_foco_idea_5,
+#grafica_foco_idea_6,
+#grafica_foco_idea_7,
+#grafica_foco_idea_8 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_compu_1,
+#grafica_compu_2 {
+    fill: rgb(8, 8, 8);
+    transform: translate(-5%, 10%);
+    position: relative;
+   
+    animation: move_adelante 10s infinite;
+}
+
+#grafica_grafica_pay_1,
+#grafica_grafica_pay_2,
+#grafica_grafica_pay_3,
+#grafica_grafica_pay_4,
+#grafica_grafica_pay_5  {
+    fill: rgb(3, 39, 241);
+    transform: translate(0%, 0%);
+    position: relative;  
+    animation: move_pay 10s  infinite;
+}
+@keyframes move_pay {
+    0% {
+        fill: rgb(243, 241, 241);
+
+    }
+    25% {
+        fill: rgb(8, 8, 8);
+
+    }
+    50% {
+        fill: rgb(243, 237, 237);
+
+    }
+    75% {
+        fill: rgb(14, 13, 13);
+    }
+
+    to {   
+        transform: scale(1) translate(60%, 60%);
+        fill: rgb(247, 245, 245);
+    }
+}
+
+/* -----------------------------------------  */
+
+#grafica_signo_de_pesos {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_personas_0,
+#grafica_personas_1,
+#grafica_personas_2,
+#grafica_personas_3,
+#grafica_personas_4,
+#grafica_personas_5,
+#grafica_personas_6,
+#grafica_personas_7,
+#grafica_personas_8,
+#grafica_personas_9,
+#grafica_personas_10,
+#grafica_personas_11,
+#grafica_personas_12,
+#grafica_personas_13,
+#grafica_personas_14 {
+    fill: rgb(8, 8, 8);
+    transform: translate(-70%, -50%);
+    position: relative;
+   
+    animation: move_adelante 70s 0.2s both infinite;
+}
+
+#grafica_nuve_personas {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_rayitas_1,
+#grafica_rayitas_2 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+
+#grafica_taza_cafe_0,
+#grafica_taza_cafe_1,
+#grafica_taza_cafe_2,
+#grafica_taza_cafe_3,
+#grafica_taza_cafe_4,
+#grafica_taza_cafe_5,
+#grafica_taza_cafe_6 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_asterisco,
+#grafica_asterisco_2,
+#grafica_asterisco_3 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_pequena_1,
+#grafica_pequena_2 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_flecha_arriba_1,
+#grafica_flecha_arriba_2 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_flecha_derecha_1 {
+    fill: rgb(3, 3, 3);
+    transform: translate(0%, 0%);
+}
+
+#grafica_puntos_1 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_carta_1,
+#grafica_carta_2 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_chica_derecha_1,
+#grafica_chica_derecha_2,
+#grafica_chica_derecha_3,
+#grafica_chica_derecha_4,
+#grafica_chica_derecha_5,
+#grafica_chica_derecha_6,
+#grafica_chica_derecha_7,
+#grafica_chica_derecha_8,
+#grafica_chica_derecha_9,
+#grafica_chica_derecha_10,
+#grafica_chica_derecha_11,
+#grafica_chica_derecha_12,
+#grafica_chica_derecha_13 {
+    fill: rgb(3, 241, 130);
+    transform: translate(20%, -60%);
+    position: relative;  
+    animation: move_1 15s  both infinite;
+}
+@keyframes move_1{
+    0% {
+        fill: rgb(250, 4, 4);
+
+    }
+    25% {
+        fill: rgb(245, 239, 239);
+
+    }
+    50% {
+        fill: rgb(11, 228, 58);
+
+    }
+    75% {
+        fill: rgb(250, 246, 246);
+       
+    }
+
+    to {   
+        transform: scale(3, 0.9);
+        fill: rgb(20, 20, 20);
+    }
+}
+/* -----------------------------------------  */
+
+
+#grafica_flecha_izq_1 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_pay_grande_1,
+#grafica_pay_grande_2,
+#grafica_pay_grande_3,
+#grafica_pay_grande_4,
+#grafica_pay_grande_5,
+#grafica_pay_grande_6,
+#grafica_pay_grande_7,
+#grafica_pay_grande_8,
+#grafica_pay_grande_9,
+#grafica_pay_grande_10 {
+    fill: rgb(3, 39, 241);
+    transform: translate(0%, 2%);
+    position: relative;  
+    animation: move_atras_1 10s  infinite;
+}
+@keyframes move_atras_1 {
+    0% {
+        fill: rgb(250, 4, 4);
+
+    }
+    25% {
+        fill: rgb(245, 239, 239);
+
+    }
+    50% {
+        fill: rgb(11, 80, 228);
+
+    }
+    75% {
+        fill: rgb(250, 246, 246);
+    }
+
+    to {   
+        transform: scale(0.9) translate(30%, 50%);
+        fill: rgb(20, 20, 20);
+    }
+}
+
+/* -----------------------------------------  */
+
+
+#grafica_flecha_curva_1,
+#grafica_flecha_curva_2 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    animation: move_atras_1 8s  infinite;
+}
+
+#grafica_chica_arriba_1,
+#grafica_chica_arriba_2,
+#grafica_chica_arriba_3 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    animation: move_atras_1 8s  infinite;
+}
+
+#grafica_grande_pay_1,
+#grafica_grande_pay_2 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_pastel_grande_1,
+#grafica_pastel_grande_2,
+#grafica_pastel_grande_3,
+#grafica_pastel_grande_4 {
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    position: relative;
+    animation: move_sencillo 14s 14s both infinite;
+}
+
+#grafica_arroba_compu_chica,
+#grafica_flecha_compu_chica_1,
+#grafica_flecha_compu_chica_3,
+#grafica_flecha_compu_chica_2,
+#grafica_flecha_compu_chica_4 {
+    fill: rgb(8, 8, 8);
+    transform: translate(-10%, 20%);
+    position: relative;
+    animation: move_2 5s 1s both infinite;
+}
+
+@keyframes move_2 {
+
+    0% {
+        fill: rgb(250, 4, 4);
+
+    }
+    25% {
+        fill: rgb(245, 239, 239);
+
+    }
+    50% {
+        fill: rgb(11, 80, 228);
+
+    }
+    75% {
+        fill: rgb(250, 246, 246);
+    }
+
+    to {
+        transform: translate(0%, 0%);
+    }
+
+}
+
+/* -----------------------------------------  */
+
+
+#grafica_flecha_circula_chica_1,
+#grafica_flecha_circula_chica_2,
+#grafica_flecha_circula_chica_3,
+#grafica_flecha_circula_chica_4,
+#grafica_flecha_circula_chica_5 {
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    position: relative;
+   
+    animation: move_sencillo 6s 5s both infinite;
+}
+
+#grafica_circulos_business,
+#grafica_letra_b_business,
+#grafica_letra_u_business,
+#grafica_letra_s_business,
+#grafica_letra_i_business,
+#grafica_letra_n_business,
+#grafica_letra_e_business,
+#grafica_letra_s_business,
+#grafica_letra_s_business,
+#grafica_flecha_abajo_business,
+#grafica_flecha_arriba_business,
+#grafica_flecha_arriba_derecha_business_1,
+#grafica_flecha_arriba_derecha_business_2 {
+    fill: rgb(3, 39, 241);
+    transform: translate(0%, 2%);
+    position: relative;  
+    animation: move_busines 10s  infinite;
+}
+@keyframes move_busines {
+    0% {
+        fill: rgb(243, 241, 241);
+
+    }
+    25% {
+        fill: rgb(8, 8, 8);
+
+    }
+    50% {
+        fill: rgb(243, 237, 237);
+
+    }
+    75% {
+        fill: rgb(14, 13, 13);
+    }
+
+    to {   
+        transform: scale(0.9) translate(30%, 50%);
+        fill: rgb(247, 245, 245);
+    }
+}
+
+/* -----------------------------------------  */
+
+#grafica_circulo_abajo,
+#grafica_circulo_abajo_linea_1,
+#grafica_circulo_abajo_linea_2,
+#grafica_circulo_abajo_linea_3 {
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    position: relative;
+   
+    animation: move_sencillo 10s 2s both infinite;
+}
+
+#grafica_caja_check_1,
+#grafica_caja_check_2,
+#grafica_caja_check_3,
+#grafica_caja_check_4,
+#grafica_caja_check_5,
+#grafica_caja_check_6,
+#grafica_caja_check_7,
+#grafica_caja_check_8,
+#grafica_caja_check_9 {
+    fill: rgb(8, 8, 8);
+    transform: translate(-20%, -5%);
+    position: relative;  
+    animation: move_marca 10s both infinite;
+}
+
+
+
+#grafica_cochino_1,
+#grafica_cochino_2,
+#grafica_cochino_3,
+#grafica_cochino_4 {
+    fill: rgb(8, 8, 8);
+    transform: translate(30%, 30%);
+    position: relative;  
+    animation: move_cochino 25s both infinite;
+}
+
+@keyframes move_cochino {
+    0% {
+        fill: rgb(231, 16, 16);
+
+    }
+    25% {
+        fill: rgb(224, 228, 11);
+
+    }
+    50% {
+        fill: rgb(231, 16, 16);
+
+    }
+    75% {
+        fill: rgb(224, 228, 11);
+
+    }
+    85% {
+        fill: rgb(250, 246, 246);
+    }
+
+    to {   
+        transform: scale(3) translate(-90%, -90%);
+        fill: rgb(20, 20, 20);
+    }
+}
+
+/* -----------------------------------------  */
+
+#grafica_marca_registrada_1,
+#grafica_marca_registrada_2 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    position: relative;  
+    animation: move_marca 10s both infinite;
+}
+
+@keyframes move_marca {
+    0% {
+        fill: rgb(231, 16, 16);
+
+    }
+    25% {
+        fill: rgb(224, 228, 11);
+
+    }
+    50% {
+        fill: rgb(231, 16, 16);
+
+    }
+    75% {
+        fill: rgb(224, 228, 11);
+
+    }
+    85% {
+        fill: rgb(250, 246, 246);
+    }
+
+    to {   
+        transform: skew(30deg, 20deg);
+        fill: rgb(20, 20, 20);
+    }
+}
+
+/* -----------------------------------------  */
+
+#grafica_nubes_1,
+#grafica_nubes_2, 
+#grafica_nubes_flecha_arriba,
+#grafica_nubes_flecha_abajo {
+    fill: rgb(8, 8, 8);
+    transform: translate(-10%, 20%);
+    position: relative;
+    animation: move_nuves 5s 1s both infinite;
+}
+
+@keyframes move_nuves {
+
+    0% {
+        fill: rgb(250, 4, 4);
+
+    }
+    25% {
+        fill: rgb(245, 239, 239);
+
+    }
+    50% {
+        fill: rgb(11, 80, 228);
+
+    }
+    75% {
+        fill: rgb(250, 246, 246);
+    }
+
+    to {
+        transform: translate(0%, 0%);
+        transform: rotateZ(360deg);
+    }
+
+}
+
+/* -----------------------------------------  */
+
+#grafica_cohete_1,
+#grafica_cohete_2  {
+    fill: rgb(8, 8, 8);
+    transform: translate(80%, 60%);
+    position: relative;
+   
+    animation: move_cohete 40s 0.1ms infinite;
+}
+
+@keyframes move_cohete {
+    0% {
+        fill: rgb(238, 241, 7);
+
+    }
+    25% {
+        fill: rgb(250, 246, 246);
+
+    }
+    50% {
+        fill: rgb(12, 69, 240);
+
+    }
+
+    65% {
+        fill: rgb(250, 246, 246);
+
+    }
+    75% {
+        fill: rgb(231, 15, 15);
+
+    }
+    100% {
+       
+        transform: scale(29.5) translate(-100%, -100%);
+    }
+
+}
+
+#grafica_chica_de_puntos_1 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_flechas_de_dinero_1,
+#grafica_flechas_de_dinero_2,
+#grafica_flechas_de_dinero_3 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_celular_1,
+#grafica_celular_2 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
+
+#grafica_de_barras_mediana_izquierda {
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    position: relative;
+   
+    animation: move_sencillo 10s 6s infinite alternate;
+}
+
+#grafica_pastel_chico_1,
+#grafica_pastel_chico_2,
+#grafica_pastel_chico_3,
+#grafica_pastel_chico_4,
+#grafica_pastel_chico_5,
+#grafica_pastel_chico_6,
+#grafica_pastel_chico_7 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    position: relative;
+   
+    animation: move_sencillo 9s 3s infinite alternate;
+}
+
+#grafica_de_euro_1 {
+    fill: rgb(8, 8, 8);
+    transform: translate(0%, 0%);
+}
